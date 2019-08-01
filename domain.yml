@@ -1,0 +1,37 @@
+intents:
+- affirm
+- courses_certificate
+- courses_conducted
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_courses_conducted:
+  - text: GoTrained courses are conducted online. There are live courses and recorded
+      courses. You are not required to move elsewhere to join one of our courses;
+      you can attend the lectures anywhere from your computer or mobile phone.
+  utter_courses_certificate:
+  - text: Yes. There are courses requiring only completing the lectures; other courses
+      require you to submit assignments. So simply, to earn a course certificate you
+      must complete the course requirements mentioned on the course page.
+actions:
+- utter_cheer_up
+- utter_courses_certificate
+- utter_courses_conducted
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
