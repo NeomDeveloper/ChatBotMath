@@ -1,1 +1,1 @@
-web: rasa run
+web: rasa run -p $PORT
