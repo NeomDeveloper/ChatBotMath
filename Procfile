@@ -1,1 +1,1 @@
-web: rasa x --production --rasa-x-port $PORT-1 -p $PORT && rasa run actions
+web: rasa x -p $PORT && rasa run actions
