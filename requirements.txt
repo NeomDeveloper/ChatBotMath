@@ -1,3 +1,4 @@
+rasa-x -i https://pypi.rasa.com/simple
 rasa-x --extra-index-url https://pypi.rasa.com/simple
 rasa
 rasa-core
