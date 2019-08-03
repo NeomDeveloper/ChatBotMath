@@ -4,6 +4,8 @@
 - of course
 - that sounds good
 - correct
+- explicar hello world
+- ok
 
 ## intent:courses_certificate
 - Will I get course certificate, and how?
@@ -33,6 +35,7 @@
 - good morning
 - good evening
 - hey there
+- hello world
 
 ## intent:mood_great
 - perfect

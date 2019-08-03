@@ -191,3 +191,8 @@ Traceback (most recent call last):
     return original_signal_handler(sig, frame)
 KeyboardInterrupt
 2019-07-31 23:18:31,601 [INFO ]  Starting Rasa server on http://localhost:5004
+2019-08-01 19:39:48,001 [WARNI]  No valid configuration given to load agent.
+2019-08-01 19:39:48,004 [WARNI]  Agent could not be loaded with the provided configuration. Load default agent without any model.
+2019-08-03 09:50:44,321 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-03 09:51:16,418 [INFO ]  Killing Sanic server now.
+2019-08-03 10:12:36,457 [WARNI]  Executing action for sender 'a2088dd4fb1b4cdd8145b30bada8d2e3' failed with status '500' and error '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred. Error: Cannot access action 'utter_action_hello_world', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - action_hello_world\n\t - utter_cheer_up\n\t - utter_courses_certificate\n\t - utter_courses_conducted\n\t - utter_did_that_help\n\t - utter_goodbye\n\t - utter_greet\n\t - utter_happy","reason":"ConversationError","details":{},"help":null,"code":500}'.

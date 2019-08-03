@@ -28,6 +28,8 @@ templates:
       require you to submit assignments. So simply, to earn a course certificate you
       must complete the course requirements mentioned on the course page.
 actions:
+- action_hello_world
+- action_hello_world2
 - utter_cheer_up
 - utter_courses_certificate
 - utter_courses_conducted

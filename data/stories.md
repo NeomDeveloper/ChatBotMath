@@ -43,3 +43,12 @@
 ## Certificado
 * courses_certificate
     - utter_courses_certificate
+
+## New Story
+
+* greet
+    - utter_greet
+* affirm
+    - action_hello_world2
+* affirm
+    - action_hello_world

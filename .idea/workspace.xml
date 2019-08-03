@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2563d7f-5783-48cd-98bf-bfa44e95b7d9" name="Default Changelist" comment="" />
+    <list default="true" id="e2563d7f-5783-48cd-98bf-bfa44e95b7d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasa.db" beforeDir="false" afterPath="$PROJECT_DIR$/rasa.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasa_core.log" beforeDir="false" afterPath="$PROJECT_DIR$/rasa_core.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1Obkux6WDeb1U6cepH1ZZp0jBom" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,7 +69,10 @@
       <option name="presentableId" value="Default" />
       <updated>1564253909784</updated>
       <workItem from="1564253912406" duration="8866000" />
-      <workItem from="1564620106490" duration="7187000" />
+      <workItem from="1564620106490" duration="7942000" />
+      <workItem from="1564698784311" duration="516000" />
+      <workItem from="1564706751330" duration="529000" />
+      <workItem from="1564835324598" duration="4100000" />
     </task>
     <servers />
   </component>
@@ -69,7 +84,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
