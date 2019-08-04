@@ -207,3 +207,5 @@ KeyboardInterrupt
 2019-08-04 17:54:38,426 [INFO ]  Starting Rasa server on http://localhost:5005
 2019-08-04 19:13:35,285 [WARNI]  Model '20190803-100225' was already removed from database.
 2019-08-04 19:13:35,337 [WARNI]  Model '20190803-100225' was already removed from database.
+2019-08-04 19:20:50,831 [WARNI]  Model '20190731-225145' was already removed from database.
+2019-08-04 19:20:50,865 [WARNI]  Model '20190731-225145' was already removed from database.
