@@ -13,31 +13,16 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 
-class ActionHelloWorld(Action):
+class Explicacao(Action):
 
     def name(self) -> Text:
-        return "action_hello_world"
+        return "explicando_algo"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        print("teste")
 
-        dispatcher.utter_message("Hello World! --")
-
-        return []
-
-
-class ActionHelloWorld2(Action):
-
-    def name(self) -> Text:
-        return "action_hello_world2"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        print("teste")
-
-        dispatcher.utter_message("Hello World 2! --")
+        tema = tracker.get_slot('tema_para_ser_explicado')
+        dispatcher.utter_message("select * from restaurants where cuisine='{0}' limit 1".format(tema))
 
         return []

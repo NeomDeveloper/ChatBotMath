@@ -1,54 +1,14 @@
-## Feliz
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## Basica 1
+* comprimento
+  - utter_comprimento
 
-## Mal 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+## Entender alguma coisa
+* explicar_sobre_alguma_coisa
+	- explicando_algo
 
-## tchau
-* goodbye
-  - utter_goodbye
+## Explicacao de algum tema
 
-## Conduta
-
-* greet
-    - utter_greet
-* courses_conducted
-    - utter_courses_conducted
-
-## Conduta e certificado
-
-* greet
-    - utter_greet
-* courses_conducted
-    - utter_courses_conducted
-* courses_certificate
-    - utter_courses_certificate
-
-## Olá e certificado
-
-* greet
-    - utter_greet
-* courses_certificate
-    - utter_courses_certificate
-
-## Certificado
-* courses_certificate
-    - utter_courses_certificate
-
-## New Story
-
-* greet
-    - utter_greet
-* affirm
-    - action_hello_world2
-* affirm
-    - action_hello_world
+* comprimento
+    - utter_comprimento
+* explicar_sobre_algum_tema
+    - explicando_algo
