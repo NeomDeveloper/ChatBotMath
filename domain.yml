@@ -9,6 +9,10 @@ entities:
 templates:
   utter_comprimento:
   - text: Ola, como posso  te ajudar?
+  utter_entendeu:
+  - text: Que bom, deixe sua avaliação =D
+  utter_nao_entendeu:
+  - text: Putz! Vou tentar explicar novamente!
 actions:
 - explicando_algo
 - explicar_sobre_alguma_coisa
