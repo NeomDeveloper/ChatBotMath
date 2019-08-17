@@ -209,3 +209,78 @@ KeyboardInterrupt
 2019-08-04 19:13:35,337 [WARNI]  Model '20190803-100225' was already removed from database.
 2019-08-04 19:20:50,831 [WARNI]  Model '20190731-225145' was already removed from database.
 2019-08-04 19:20:50,865 [WARNI]  Model '20190731-225145' was already removed from database.
+2019-08-17 15:48:33,510 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-17 15:50:03,012 [ERROR]  Exception occurred while handling uri: 'http://81d949ce.ngrok.io/'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-17 15:50:03,888 [ERROR]  Exception occurred while handling uri: 'http://81d949ce.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-17 15:50:08,466 [ERROR]  Exception occurred while handling uri: 'http://81d949ce.ngrok.io/webhook'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-17 15:50:12,098 [ERROR]  Exception occurred while handling uri: 'http://81d949ce.ngrok.io/webhook/facebook'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/facebook not found
+2019-08-17 15:50:50,944 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-17 15:50:51,157 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-17 15:51:13,686 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-08-17 15:51:20,118 [INFO ]  Starting Rasa server on http://localhost:5005
