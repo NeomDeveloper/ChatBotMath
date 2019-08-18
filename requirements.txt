@@ -1,4 +1,4 @@
 rasa
 spacy
-spacy
+spacy pt
 rasa-core
