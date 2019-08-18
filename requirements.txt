@@ -1,4 +1,4 @@
 rasa
 spacy
-spacy pt
+spacy download pt
 rasa-core
