@@ -1,9 +1,6 @@
 intents:
 - comprimento
-- entendeu
 - explicar_sobre_algum_tema
-- explicar_sobre_alguma_coisa
-- nao_entendeu
 entities:
 - tema_para_ser_explicado
 templates:
@@ -11,7 +8,4 @@ templates:
   - text: Ola, como posso  te ajudar?
 actions:
 - explicando_algo
-- explicar_sobre_alguma_coisa
 - utter_comprimento
-- utter_entendeu
-- utter_nao_entendeu

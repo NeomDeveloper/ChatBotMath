@@ -1,3 +1,30 @@
-2019-08-17 17:51:10,472 [WARNI]  Model '20190817-174610' was already removed from database.
-2019-08-17 17:51:10,486 [WARNI]  Model '20190817-174610' was already removed from database.
-2019-08-17 17:51:10,502 [WARNI]  Model '20190817-174610' was already removed from database.
+2019-08-17 21:42:01,119 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: The number of classes has to be greater than one; got 1 class","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-17 21:44:58,615 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: The number of classes has to be greater than one; got 1 class","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-17 21:45:13,499 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: The number of classes has to be greater than one; got 1 class","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-17 21:46:44,360 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: The number of classes has to be greater than one; got 1 class","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-17 22:01:09,095 [ERROR]  exception calling callback for <Future at 0x2753e523470 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2019-08-17 22:01:09,250 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x00000275398C08B8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2019-08-17 22:54:53,606 [ERROR]  exception calling callback for <Future at 0x202b4020e48 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2019-08-17 22:54:55,066 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x00000202B3E99EE8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
