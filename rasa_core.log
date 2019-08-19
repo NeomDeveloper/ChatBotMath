@@ -28,3 +28,99 @@ Traceback (most recent call last):
 RuntimeError: Event loop is closed
 2019-08-17 22:54:55,066 [ERROR]  Task was destroyed but it is pending!
 task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x00000202B3E99EE8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2019-08-18 20:35:52,449 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-18 20:35:55,115 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt'.
+2019-08-18 20:36:14,294 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-18 20:36:14,509 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-18 20:36:24,445 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-18 20:36:28,666 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/api'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api not found
+2019-08-18 20:36:58,951 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook/facebook'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/facebook not found
+2019-08-18 20:37:54,310 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-08-18 21:37:43,126 [ERROR]  Invalid story format. Failed to parse '## Explicar
+
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	- slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo'
+Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2019-08-18 21:37:44,360 [ERROR]  Invalid story format. Failed to parse '## Explicar
+
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	- slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo'
+Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2019-08-18 21:37:46,179 [ERROR]  Invalid story format. Failed to parse '## Explicar
+
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	- slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo'
+Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2019-08-18 21:37:46,636 [ERROR]  Invalid story format. Failed to parse '## Explicar
+
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	- slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo'
+Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2019-08-18 21:37:47,234 [ERROR]  Invalid story format. Failed to parse '## Explicar
+
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	- slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo'
+Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
