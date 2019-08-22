@@ -29,6 +29,8 @@ class Explicacao(Action):
 
         tema = tracker.get_slot('tema_para_ser_explicado')
 
+        print(tema)
+
         if tema not in Explicacao.required_slots(tracker):
             dispatcher.utter_message(
                 "Desculpe, parece ainda não sei sobre esse tema =/"

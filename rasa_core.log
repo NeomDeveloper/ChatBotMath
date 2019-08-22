@@ -124,3 +124,17 @@ Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_
 	- slot{tema_para_ser_explicado:'grafos'}
     - explicando_algo'
 Error: Error in line 4: Invalid to parse arguments in line ' slot{tema_para_ser_explicado:'grafos'}'. Failed to decode parametersas a json object. Make sure the eventname is followed by a proper json object. Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2019-08-21 21:20:47,235 [WARNI]  Could not run model discovery.
+2019-08-21 21:55:31,491 [ERROR]  exception calling callback for <Future at 0x1795a6d1a58 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2019-08-21 21:55:32,873 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x000001795A668528>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
