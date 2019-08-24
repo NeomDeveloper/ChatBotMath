@@ -7,5 +7,7 @@ templates:
   utter_comprimento:
   - text: Ola, como posso  te ajudar?
 actions:
+- -augmentation
+- augmentation
 - explicando_algo
 - utter_comprimento
