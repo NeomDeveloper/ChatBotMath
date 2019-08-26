@@ -1,10 +1,34 @@
 ## Comprimento
 * comprimento
     - utter_comprimento
-		- augmentation 1
 
 ## Entender alguma coisa
 
-* explicar_sobre_algum_tema
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	slot{tema_para_ser_explicado:'grafos'}
     - explicando_algo
 		- augmentation
+
+## Fluxo de conversa sobre algum tema
+
+* comprimento
+    - utter_comprimento
+* explicar_sobre_algum_tema{tema_para_ser_explicado:'grafos'}
+	slot{tema_para_ser_explicado:'grafos'}
+    - explicando_algo
+> verifica_se_entendeu
+
+## first story
+* hello
+   - action_ask_user_question
+> check_asked_question
+
+## Entendeu sobre o tema
+> verifica_se_entendeu
+* affirm
+  - entendeu_sobre_o_tema
+
+## Nao entendeu sobre o tema
+> verifica_se_entendeu
+* deny
+  - nao_entendeu_sobre_o_tema

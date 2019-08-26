@@ -1,3 +1,7 @@
+## intent:affirm
+- Sim
+- sim
+
 ## intent:comprimento
 - OI
 - oi
@@ -17,6 +21,12 @@
 - pode  me explicar sobre [grafos](tema_para_ser_explicado)?
 - pode me explicar sobre [batata](tema_para_ser_explicado)?
 - pode me explicar sobre [aalssdfa](tema_para_ser_explicado)
+- pode me explicar sobre [matemática](tema_para_ser_explicado)?
+- Pode me explicar mais sobre [bjjjj](tema_para_ser_explicado)?
 
 ## synonym:Teoria dos jogos
 - Teoria dos jogos
+
+## synonym:aa
+-  aa
+- aa
