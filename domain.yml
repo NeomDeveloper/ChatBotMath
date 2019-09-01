@@ -1,17 +1,22 @@
 intents:
 - affirm
 - comprimento
+- converter_bases
 - deny
 - explicar_sobre_algum_tema
 - hello
 entities:
+- base_para_converter
+- base_valor
 - tema_para_ser_explicado
+- valor
 templates:
   utter_comprimento:
   - text: Ola, como posso  te ajudar?
 actions:
 - action_ask_user_question
 - augmentation
+- converter_bases_action
 - entendeu_sobre_o_tema
 - explicando_algo
 - nao_entendeu_sobre_o_tema
