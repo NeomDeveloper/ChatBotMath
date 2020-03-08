@@ -82,3 +82,23 @@ Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
     raise NotFound("Requested URL {} not found".format(url))
 sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2020-03-08 00:22:48,724 [INFO ]  Starting Rasa server on http://localhost:8080
+2020-03-08 00:22:50,645 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-08 00:23:04,267 [ERROR]  Exception occurred while handling uri: 'http://localhost:8080/'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2020-03-08 00:23:04,866 [ERROR]  Exception occurred while handling uri: 'http://localhost:8080/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
