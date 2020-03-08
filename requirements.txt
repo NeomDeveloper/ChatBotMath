@@ -1,4 +1,4 @@
 rasa
-spacy[pt]
+spacy[pt_core_news_sm]
 spacy
 rasa-core
