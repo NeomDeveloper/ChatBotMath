@@ -5,6 +5,10 @@
 ## intent:comprimento
 - Olá
 - Dae
+- oi
+- oi[
+- Oi
+- olá
 
 ## intent:converter_bases
 - Quero converter [10010](valor) [binário](base_valor:BINARIO) para [hexadecimal](base_para_converter:HEXADECIMAL)
@@ -52,25 +56,22 @@
 - Então converter [23156](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - Precisava converter [2342](valor) [binário](base_valor:BINARIO) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - converte para mim [2145](valor) [decimais](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)?
+- converter [479237](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
+- converter [789472398](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
+- converter [12](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
+- calcular [432](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 
-## intent:explicar_sobre_algum_tema
-- Pode me explicar mais sobre [Teoria de grafos](tema_para_ser_explicado)?
-- Não estou entendendo o que é a [teoria de grafos](tema_para_ser_explicado)
-- Queria entender mais sobre [Grafos](tema_para_ser_explicado)
-- pode me explicar sobre [grafos](tema_para_ser_explicado)?
-- pode me explicar sobre [grafo](tema_para_ser_explicado)?
-- pode me explicar mais sobre [grafos](tema_para_ser_explicado)?
-- pode me explicar sobre a teoria de [grafos](tema_para_ser_explicado)?
-- Precisava entender mais sobre [grafos](tema_para_ser_explicado)
-- pode me explicar sobre[ aa](tema_para_ser_explicado:aa)
-- pode me explicar sobre[ a](tema_para_ser_explicado)
-- pode  me explicar sobre [grafos](tema_para_ser_explicado)?
-- pode me explicar sobre [batata](tema_para_ser_explicado)?
-- pode me explicar sobre [aalssdfa](tema_para_ser_explicado)
-- pode me explicar sobre [matemática](tema_para_ser_explicado)?
-- Pode me explicar mais sobre [bjjjj](tema_para_ser_explicado)?
-- pode me expliacr sobre [grafos](tema_para_ser_explicado)?
-- pode me explicar sobre [grafos](tema_para_ser_explicado)
+## intent:inciar_ensino_conversao_bases
+- Me ensine conversão de bases
+- me explique conversão de bases
+- me ensine conversao de bases
+- Me ensine sobre conversão de bases
+- Quero aprender mais sobre conversão de bases
+
+## intent:operacao_matematica
+- fazer a seguinte operação matemática: [(22*33)+19](calculo)
+- fazer a seguinte operação matemática: [33](valor)[33*221](calculo)[221](valor)
+- fazer a seguinte operação: [22-11](calculo)
 
 ## synonym:BINARIO
 - binário
@@ -78,9 +79,10 @@
 
 ## synonym:DECIMAL
 - decimal
+- decimais
 
 ## synonym:HEXADECIMAL
 - hexadecimal
 
 ## synonym:aa
--  aa
+- aa

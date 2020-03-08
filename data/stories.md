@@ -31,3 +31,11 @@
 > verifica_se_entendeu
 * deny
   - nao_entendeu_sobre_o_tema
+
+## Operação matemática
+* operacao_matematica
+   - operacao_matematica_action
+
+## Inicio de ensino conversao de bases
+* inciar_ensino_conversao_bases
+   - inicio_ensino_converter_bases_action

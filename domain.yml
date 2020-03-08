@@ -5,19 +5,27 @@ intents:
 - deny
 - explicar_sobre_algum_tema
 - hello
+- inciar_ensino_conversao_bases
+- operacao_matematica
 entities:
 - base_para_converter
 - base_valor
+- calculo
 - tema_para_ser_explicado
 - valor
 templates:
   utter_comprimento:
-  - text: Ola, como posso  te ajudar?
+  - text: Ola, tudo bem ? Sou um Chat Bot de matematica discreta.  Ainda estou em
+      desenvolvimento, mas ja me ensinaram alguma coisa sobre conversao de bases.  Caso
+      voce queira estudar entender um pouco mais sobre isso,  por favor escreva "Me
+      ensine conversao de bases".
 actions:
 - action_ask_user_question
 - augmentation
 - converter_bases_action
 - entendeu_sobre_o_tema
 - explicando_algo
+- inicio_ensino_converter_bases_action
 - nao_entendeu_sobre_o_tema
+- operacao_matematica_action
 - utter_comprimento
