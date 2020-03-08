@@ -1,0 +1,84 @@
+2020-02-08 16:56:48,372 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-02-08 16:56:51,285 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-02-08 16:58:35,551 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\socketio\client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2020-03-07 15:46:07,321 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x000001B16C8BFFA8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2020-03-07 17:37:53,954 [ERROR]  exception calling callback for <Future at 0x18fb198a9b0 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2020-03-07 17:37:56,508 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x0000018FB16B40A8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2020-03-07 22:28:54,421 [ERROR]  exception calling callback for <Future at 0x20ec73ba630 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2020-03-07 22:28:56,561 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x0000020EC71039D8>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2020-03-07 23:02:16,629 [WARNI]  Model '20200307-152259' was already removed from database.
+2020-03-07 23:02:17,132 [WARNI]  Model '20200307-152711' was already removed from database.
+2020-03-07 23:02:39,534 [ERROR]  exception calling callback for <Future at 0x20ff7787d30 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2020-03-07 23:02:41,080 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x0000020FF7790F48>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
+2020-03-07 23:07:47,049 [INFO ]  Starting Rasa server on http://localhost:49203
+2020-03-07 23:07:48,994 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-07 23:08:04,907 [ERROR]  Exception occurred while handling uri: 'http://localhost:49203/'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2020-03-07 23:08:06,072 [ERROR]  Exception occurred while handling uri: 'http://localhost:49203/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found

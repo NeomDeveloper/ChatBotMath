@@ -12,7 +12,6 @@
 
 action_endpoint:
   url: "https://limitless-island-16030.herokuapp.com/webhook"
-#  url: "http://localhost:5055/webhook"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
