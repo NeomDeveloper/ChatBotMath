@@ -2,3 +2,4 @@ rasa
 spacy
 spacy[pt_core_news_sm]
 rasa-core
+rasa-x
