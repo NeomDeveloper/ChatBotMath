@@ -67,22 +67,26 @@
 - me ensine conversao de bases
 - Me ensine sobre conversão de bases
 - Quero aprender mais sobre conversão de bases
+- Me ensine conversao de bases
+- conversao de bases
 
 ## intent:operacao_matematica
 - fazer a seguinte operação matemática: [(22*33)+19](calculo)
 - fazer a seguinte operação matemática: [33](valor)[33*221](calculo)[221](valor)
 - fazer a seguinte operação: [22-11](calculo)
+- fazer a seguinta operação matemática:[ 22*22](valor)[22](valor)*22
+- fazer a seguinte operação matemática: [33](valor)[33*221](valor)[221](valor)
+- fazer a seguinte operação matemática:[ (33*44)](valor)
 
 ## synonym:BINARIO
 - binário
-- binario
+- bin
 
 ## synonym:DECIMAL
 - decimal
 - decimais
+- dec
 
 ## synonym:HEXADECIMAL
 - hexadecimal
-
-## synonym:aa
-- aa
+- hex

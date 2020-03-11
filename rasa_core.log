@@ -102,3 +102,16 @@ Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\router.py", line 469, in _get
     raise NotFound("Requested URL {} not found".format(url))
 sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2020-03-09 20:24:22,001 [ERROR]  exception calling callback for <Future at 0x1c7979c7f60 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py", line 417, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 637, in call_soon_threadsafe
+    self._check_closed()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 377, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2020-03-09 20:24:24,395 [ERROR]  Task was destroyed but it is pending!
+task: <Task pending coro=<TCPConnector._resolve_host() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\aiohttp\connector.py:773> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\futures.py:403, <TaskWakeupMethWrapper object at 0x000001C797A00648>()]> cb=[shield.<locals>._done_callback() at c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\tasks.py:688]>
