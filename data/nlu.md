@@ -1,6 +1,12 @@
 ## intent:affirm
 - Sim
 - sim
+- Entendi
+- Legal, consegui entender
+- sim entendi
+- sim, entendi
+- legal, entendi
+- sim,entendi
 
 ## intent:comprimento
 - Olá
@@ -61,6 +67,16 @@
 - converter [12](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - calcular [432](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 
+## intent:deny
+- nao
+- nao entendi
+- pode explicar novamente
+- nao ficou claro
+- ainda estou confuso
+- ainda estou confusa
+- não
+- não entendi
+
 ## intent:inciar_ensino_conversao_bases
 - Me ensine conversão de bases
 - me explique conversão de bases
@@ -69,6 +85,7 @@
 - Quero aprender mais sobre conversão de bases
 - Me ensine conversao de bases
 - conversao de bases
+- me conversao de bases
 
 ## intent:operacao_matematica
 - fazer a seguinte operação matemática: [(22*33)+19](calculo)
@@ -80,6 +97,7 @@
 
 ## synonym:BINARIO
 - binário
+- binario
 - bin
 
 ## synonym:DECIMAL

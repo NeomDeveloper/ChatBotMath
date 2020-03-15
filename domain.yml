@@ -11,16 +11,19 @@ entities:
 - base_para_converter
 - base_valor
 - calculo
-- tema_para_ser_explicado
 - valor
+slots:
+  tema_para_ser_explicado:
+    type: text
 templates:
   utter_comprimento:
-  - text: Ola, tudo bem ? Sou um Chat Bot de matematica discreta.  Ainda estou em
-      desenvolvimento, mas ja me ensinaram alguma coisa sobre conversao de bases.  Caso
-      voce queira estudar entender um pouco mais sobre isso,  por favor escreva "Me
-      ensine conversao de bases".
+  - text: Ola, tudo bem? Sou CPEMD - CHATBOT PARA ENSINO DE MATEMATICA DISCRETA.  Ainda
+      estou em desenvolvimento, mas ja me ensinaram algumas coisas sobre conversao
+      de bases. Caso voce queira entender um pouco mais sobre isso,  por favor escreva
+      'Me ensine conversao de bases'. Ou caso voce queira que eu converta alguma base
+      para voce basta escrever 'Pode converter (valor) de (base_valor) para (base_para_converter)'.
+      Ex:. 'Pode converter 10 de binario para decimal'
 actions:
-- action_ask_user_question
 - augmentation
 - converter_bases_action
 - entendeu_sobre_o_tema
