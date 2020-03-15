@@ -1,34 +1,17 @@
 intents:
-- affirm
 - comprimento
-- converter_bases
-- deny
+- entendeu
 - explicar_sobre_algum_tema
-- hello
-- inciar_ensino_conversao_bases
-- operacao_matematica
+- explicar_sobre_alguma_coisa
+- nao_entendeu
 entities:
-- base_para_converter
-- base_valor
-- calculo
-- valor
-slots:
-  tema_para_ser_explicado:
-    type: text
+- tema_para_ser_explicado
 templates:
   utter_comprimento:
-  - text: Ola, tudo bem? Sou CPEMD - CHATBOT PARA ENSINO DE MATEMATICA DISCRETA.  Ainda
-      estou em desenvolvimento, mas ja me ensinaram algumas coisas sobre conversao
-      de bases. Caso voce queira entender um pouco mais sobre isso,  por favor escreva
-      'Me ensine conversao de bases'. Ou caso voce queira que eu converta alguma base
-      para voce basta escrever 'Pode converter (valor) de (base_valor) para (base_para_converter)'.
-      Ex:. 'Pode converter 10 de binario para decimal'
+  - text: Ola, como posso  te ajudar?
 actions:
-- augmentation
-- converter_bases_action
-- entendeu_sobre_o_tema
 - explicando_algo
-- inicio_ensino_converter_bases_action
-- nao_entendeu_sobre_o_tema
-- operacao_matematica_action
+- explicar_sobre_alguma_coisa
 - utter_comprimento
+- utter_entendeu
+- utter_nao_entendeu
