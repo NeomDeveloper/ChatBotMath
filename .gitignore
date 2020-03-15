@@ -1,1 +1,4 @@
 .idea/
+rasa.db
+tracker.db
+rasa_core.log

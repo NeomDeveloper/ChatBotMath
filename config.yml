@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: pt
+language: pt_core_news_sm
 pipeline: pretrained_embeddings_spacy
 
 # Configuration for Rasa Core.
@@ -8,4 +8,5 @@ pipeline: pretrained_embeddings_spacy
 policies:
   - name: MemoizationPolicy
   - name: KerasPolicy
+    augmentation: 0
   - name: MappingPolicy
