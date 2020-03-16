@@ -209,3 +209,120 @@ KeyboardInterrupt
 2019-08-04 19:13:35,337 [WARNI]  Model '20190803-100225' was already removed from database.
 2019-08-04 19:20:50,831 [WARNI]  Model '20190731-225145' was already removed from database.
 2019-08-04 19:20:50,865 [WARNI]  Model '20190731-225145' was already removed from database.
+2020-03-15 20:16:08,076 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:16:10,659 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt'.
+2020-03-15 20:16:15,779 [ERROR]  Task exception was never retrieved
+future: <Task finished coro=<configure_app.<locals>.run_cmdline_io() done, defined at c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\rasa\core\run.py:115> exception=NoConsoleScreenBufferError('Found xterm, while expecting a Windows console. Maybe try to run this program using "winpty" or run it in cmd.exe instead. Or otherwise, in case of Cygwin, use the Python executable that is compiled for Cygwin.',)>
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\eventloop\context.py", line 88, in get
+    return self._storage[ctx]
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\output\defaults.py", line 52, in get_default_output
+    value = _default_output.get()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\eventloop\context.py", line 90, in get
+    raise TaskLocalNotSetError
+prompt_toolkit.eventloop.context.TaskLocalNotSetError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\rasa\core\run.py", line 119, in run_cmdline_io
+    server_url=constants.DEFAULT_SERVER_FORMAT.format(port)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\rasa\core\channels\console.py", line 122, in record_messages
+    text = get_cmd_input(button_question)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\rasa\core\channels\console.py", line 71, in get_cmd_input
+    style=Style([("qmark", "#b373d6"), ("", "#b373d6")]),
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\questionary\prompts\text.py", line 62, in text
+    **kwargs)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\shortcuts\prompt.py", line 285, in __init__
+    output = output or get_default_output()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\output\defaults.py", line 61, in get_default_output
+    return create_output()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\output\defaults.py", line 35, in create_output
+    return Win32Output(stdout)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\output\win32.py", line 83, in __init__
+    info = self.get_win32_screen_buffer_info()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\prompt_toolkit\output\win32.py", line 178, in get_win32_screen_buffer_info
+    raise NoConsoleScreenBufferError
+prompt_toolkit.output.win32.NoConsoleScreenBufferError: Found xterm, while expecting a Windows console. Maybe try to run this program using "winpty" or run it in cmd.exe instead. Or otherwise, in case of Cygwin, use the Python executable that is compiled for Cygwin.
+2020-03-15 20:16:15,939 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+2020-03-15 20:16:45,870 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:16:48,901 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt'.
+2020-03-15 20:16:55,270 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+2020-03-15 20:18:10,011 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:18:11,449 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-15 20:18:18,749 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+2020-03-15 20:19:21,447 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:19:22,933 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-15 20:19:51,793 [ERROR]  Failed to run custom action 'inicio_ensino_converter_bases_action'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:None [Connect call failed ('127.0.0.1', 5055)]
+2020-03-15 20:19:51,795 [ERROR]  Encountered an exception while running action 'inicio_ensino_converter_bases_action'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+2020-03-15 20:20:30,697 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:21:10,213 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:23:35,351 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:33:57,737 [INFO ]  Killing Sanic server now.
+2020-03-15 20:34:27,691 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:34:30,869 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-15 20:35:28,910 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:46:17,584 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:48:53,097 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 20:56:18,932 [INFO ]  Killing Sanic server now.
+2020-03-15 20:56:46,168 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 20:56:50,954 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-15 20:57:48,256 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 21:01:50,223 [INFO ]  Killing Sanic server now.
+2020-03-15 21:06:54,061 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-15 21:06:56,095 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-03-15 21:07:16,409 [WARNI]  Action 'inicio_ensino_converter_bases_action' set a slot type 'tema_para_ser_explicado' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"tema_para_ser_explicado": "conversao_bases"}' after the action.
+2020-03-15 21:07:27,038 [ERROR]  Encountered an exception while running action 'nao_entendeu_sobre_o_tema'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+2020-03-15 21:12:46,456 [ERROR]  Encountered an exception while running action 'converter_bases_action'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+2020-03-15 21:14:29,898 [ERROR]  Encountered an exception while running action 'converter_bases_action'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+2020-03-15 21:32:08,352 [INFO ]  Killing Sanic server now.
