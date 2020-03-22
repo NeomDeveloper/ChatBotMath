@@ -66,6 +66,9 @@
 - converter [789472398](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - converter [12](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - calcular [432](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
+- converter [141](valor) [DECIMAL](base_valor) para [BINARIo](base_para_converter:BINARIO)
+- converter [141](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
+- converter [141](valor) [decimal](base_valor:DECIMAL) para [binaria](base_para_converter)
 
 ## intent:deny
 - nao
@@ -76,6 +79,8 @@
 - ainda estou confusa
 - não
 - não entendi
+- não consegui entender : (
+- não =/
 
 ## intent:inciar_ensino_conversao_bases
 - Me ensine conversão de bases
