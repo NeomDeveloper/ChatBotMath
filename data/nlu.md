@@ -15,6 +15,10 @@
 - oi[
 - Oi
 - olá
+- oi
+- oi
+- [
+- oi
 
 ## intent:converter_bases
 - Quero converter [10010](valor) [binário](base_valor:BINARIO) para [hexadecimal](base_para_converter:HEXADECIMAL)
@@ -69,6 +73,7 @@
 - converter [141](valor) [DECIMAL](base_valor) para [BINARIo](base_para_converter:BINARIO)
 - converter [141](valor) [decimal](base_valor:DECIMAL) para [hexadecimal](base_para_converter:HEXADECIMAL)
 - converter [141](valor) [decimal](base_valor:DECIMAL) para [binaria](base_para_converter)
+- converter [218](valor) [decimal](base_valor:DECIMAL) para [binário](base_para_converter:BINARIO)
 
 ## intent:deny
 - nao
@@ -81,6 +86,7 @@
 - não entendi
 - não consegui entender : (
 - não =/
+- não entendi
 
 ## intent:inciar_ensino_conversao_bases
 - Me ensine conversão de bases
@@ -91,6 +97,10 @@
 - Me ensine conversao de bases
 - conversao de bases
 - me conversao de bases
+- me ensine conversão de basesz
+- me ensine conversao de bases
+- me ensine conversão de bases
+- me ensine conversao de bases
 
 ## intent:operacao_matematica
 - fazer a seguinte operação matemática: [(22*33)+19](calculo)
@@ -100,9 +110,14 @@
 - fazer a seguinte operação matemática: [33](valor)[33*221](valor)[221](valor)
 - fazer a seguinte operação matemática:[ (33*44)](valor)
 
+## intent:stop
+- /stop
+- /stop
+
 ## synonym:BINARIO
 - binário
 - binario
+- BINARIo
 - bin
 
 ## synonym:DECIMAL
