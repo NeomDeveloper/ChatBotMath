@@ -326,3 +326,10 @@ OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 500
 2020-03-15 21:12:46,456 [ERROR]  Encountered an exception while running action 'converter_bases_action'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
 2020-03-15 21:14:29,898 [ERROR]  Encountered an exception while running action 'converter_bases_action'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
 2020-03-15 21:32:08,352 [INFO ]  Killing Sanic server now.
+2020-03-25 20:25:54,513 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-25 20:25:58,052 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-04-07 22:07:01,552 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-07 22:07:03,719 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-04-07 22:10:17,320 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-07 22:10:19,266 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
+2020-04-07 22:33:07,507 [INFO ]  Killing Sanic server now.
