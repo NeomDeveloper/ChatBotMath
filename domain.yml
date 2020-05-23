@@ -1,7 +1,7 @@
 intents:
 - affirm
-- comprimento
 - converter_bases
+- cumprimento
 - deny
 - explicar_sobre_algum_tema
 - hello
@@ -17,7 +17,7 @@ slots:
   tema_para_ser_explicado:
     type: text
 templates:
-  utter_comprimento:
+  utter_cumprimento:
   - text: Ola, tudo bem? Sou CPEMD - CHATBOT PARA ENSINO DE MATEMATICA DISCRETA.  Ainda
       estou em desenvolvimento, mas ja me ensinaram algumas coisas sobre conversao
       de bases. Caso voce queira entender um pouco mais sobre isso,  por favor escreva
@@ -32,4 +32,4 @@ actions:
 - inicio_ensino_converter_bases_action
 - nao_entendeu_sobre_o_tema
 - operacao_matematica_action
-- utter_comprimento
+- utter_cumprimento

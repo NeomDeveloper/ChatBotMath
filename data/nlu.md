@@ -8,7 +8,7 @@
 - legal, entendi
 - sim,entendi
 
-## intent:comprimento
+## intent:cumprimento
 - Olá
 - Dae
 - oi

@@ -67,7 +67,7 @@ RuntimeError: Event loop stopped before Future completed.
 Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
     sock.bind(sa)
-OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [WinError 10048] Normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 
 During handling of the above exception, another exception occurred:
 
@@ -78,13 +78,13 @@ Traceback (most recent call last):
     return future.result()
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
     % (sa, err.strerror.lower()))
-OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 2019-07-28 11:52:46,104 [INFO ]  Starting Rasa server on http://localhost:5005
 2019-07-28 11:52:51,237 [ERROR]  Unable to start server
 Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
     sock.bind(sa)
-OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [WinError 10048] Normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 
 During handling of the above exception, another exception occurred:
 
@@ -95,7 +95,7 @@ Traceback (most recent call last):
     return future.result()
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
     % (sa, err.strerror.lower()))
-OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 2019-07-31 21:55:11,200 [INFO ]  Starting Rasa server on http://localhost:5005
 2019-07-31 22:11:50,173 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
 Traceback (most recent call last):
@@ -200,9 +200,9 @@ KeyboardInterrupt
 2019-08-03 18:53:21,380 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_greet', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo","reason":"TrainingError","details":{},"help":null,"code":500}'.
 2019-08-04 17:24:09,295 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'action_hello_world2', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - utter_cheer_up\n\t - utter_courses_certificate\n\t - utter_courses_conducted\n\t - utter_did_that_help\n\t - utter_goodbye\n\t - utter_greet\n\t - utter_happy","reason":"TrainingError","details":{},"help":null,"code":500}'.
 2019-08-04 17:27:11,987 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'action_hello_world2', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - utter_cheer_up\n\t - utter_courses_certificate\n\t - utter_courses_conducted\n\t - utter_did_that_help\n\t - utter_goodbye\n\t - utter_greet\n\t - utter_happy","reason":"TrainingError","details":{},"help":null,"code":500}'.
-2019-08-04 17:35:15,075 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_greet', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - explicar_algumacoisa\n\t - explicar_sobre_alguma_coisa\n\t - utter_comprimento\n\t - utter_entendeu\n\t - utter_nao_entendeu","reason":"TrainingError","details":{},"help":null,"code":500}'.
-2019-08-04 17:35:46,014 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_greet', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - explicar_algumacoisa\n\t - explicar_sobre_alguma_coisa\n\t - utter_comprimento\n\t - utter_entendeu\n\t - utter_nao_entendeu","reason":"TrainingError","details":{},"help":null,"code":500}'.
-2019-08-04 17:45:42,290 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_comprimento', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-04 17:35:15,075 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_greet', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - explicar_algumacoisa\n\t - explicar_sobre_alguma_coisa\n\t - utter_cumprimento\n\t - utter_entendeu\n\t - utter_nao_entendeu","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-04 17:35:46,014 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_greet', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back\n\t - explicando_algo\n\t - explicar_algumacoisa\n\t - explicar_sobre_alguma_coisa\n\t - utter_cumprimento\n\t - utter_entendeu\n\t - utter_nao_entendeu","reason":"TrainingError","details":{},"help":null,"code":500}'.
+2019-08-04 17:45:42,290 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_cumprimento', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back","reason":"TrainingError","details":{},"help":null,"code":500}'.
 2019-08-04 17:46:34,450 [WARNI]  Model training failed with status '500'  and message '{"version":"1.1.7","status":"failure","message":"An unexpected error occurred during training. Error: Cannot access action 'utter_nao_entendeu', as that name is not a registered action for this domain. Available actions are: \n\t - action_listen\n\t - action_restart\n\t - action_default_fallback\n\t - action_deactivate_form\n\t - action_revert_fallback_events\n\t - action_default_ask_affirmation\n\t - action_default_ask_rephrase\n\t - action_back","reason":"TrainingError","details":{},"help":null,"code":500}'.
 2019-08-04 17:54:38,426 [INFO ]  Starting Rasa server on http://localhost:5005
 2019-08-04 19:13:35,285 [WARNI]  Model '20190803-100225' was already removed from database.
@@ -253,7 +253,7 @@ prompt_toolkit.output.win32.NoConsoleScreenBufferError: Found xterm, while expec
 Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
     sock.bind(sa)
-OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [WinError 10048] Normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 
 During handling of the above exception, another exception occurred:
 
@@ -264,14 +264,14 @@ Traceback (most recent call last):
     return future.result()
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
     % (sa, err.strerror.lower()))
-OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 2020-03-15 20:16:45,870 [INFO ]  Starting Rasa server on http://localhost:5005
 2020-03-15 20:16:48,901 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt'.
 2020-03-15 20:16:55,270 [ERROR]  Unable to start server
 Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
     sock.bind(sa)
-OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [WinError 10048] Normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 
 During handling of the above exception, another exception occurred:
 
@@ -282,14 +282,14 @@ Traceback (most recent call last):
     return future.result()
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
     % (sa, err.strerror.lower()))
-OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 2020-03-15 20:18:10,011 [INFO ]  Starting Rasa server on http://localhost:5005
 2020-03-15 20:18:11,449 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
 2020-03-15 20:18:18,749 [ERROR]  Unable to start server
 Traceback (most recent call last):
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1062, in create_server
     sock.bind(sa)
-OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [WinError 10048] Normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 
 During handling of the above exception, another exception occurred:
 
@@ -300,7 +300,7 @@ Traceback (most recent call last):
     return future.result()
   File "c:\users\nizam\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 1066, in create_server
     % (sa, err.strerror.lower()))
-OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente ï¿½ permitida apenas uma utilizaï¿½ï¿½o de cada endereï¿½o de soquete (protocolo/endereï¿½o de rede/porta)
 2020-03-15 20:19:21,447 [INFO ]  Starting Rasa server on http://localhost:5005
 2020-03-15 20:19:22,933 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-pt_core_news_sm'.
 2020-03-15 20:19:51,793 [ERROR]  Failed to run custom action 'inicio_ensino_converter_bases_action'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:None [Connect call failed ('127.0.0.1', 5055)]
